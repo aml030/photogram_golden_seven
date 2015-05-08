@@ -18,4 +18,9 @@ def create_row
 
 end
 
+def destroy
+p = Photo.find(params[:id])
+p.destroy
+end
+
 end

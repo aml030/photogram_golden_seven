@@ -11,5 +11,6 @@ get("/create_photo", { :controller => "photos", :action => "create_row" })
   get("/photos",           { :controller => "photos", :action => "index" })
   get("/photos/:id",       { :controller => "photos", :action => "show" })
 
-
+#to DELETE
+get("/delete_photo/:id", { :controller => "photos", :action => "destroy" })
 end
